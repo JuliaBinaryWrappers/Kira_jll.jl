@@ -1,0 +1,120 @@
+[[Kira]]
+arch = "aarch64"
+git-tree-sha1 = "8fab9a8358d93698582ae865e9bfe9bce0bdf66b"
+mpi = "mpich"
+os = "macos"
+
+    [[Kira.download]]
+    sha256 = "44ffbe6054dd497252e562145f78a59d3bfd1308d597210a4a3757f0ac252509"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.aarch64-apple-darwin-mpi+mpich.tar.gz"
+[[Kira]]
+arch = "aarch64"
+git-tree-sha1 = "b1b588251116591384d4834a79a6f728d94c0b54"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[Kira.download]]
+    sha256 = "94df8a27fa713a8dc54739759dc401923dbd3c1168dd724bd72caafcb03ebc0d"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[Kira]]
+arch = "aarch64"
+git-tree-sha1 = "c5f510a09147782d99375481f8d83ee4d42f2eab"
+mpi = "openmpi"
+os = "macos"
+
+    [[Kira.download]]
+    sha256 = "2f4b47828f7be080b5db912b15654a8707d99b9dda42c3b13548d39fb067142d"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[Kira]]
+arch = "x86_64"
+git-tree-sha1 = "9321c86b4d0a88ff95a4562bbb5eb0c4d2b0f78c"
+mpi = "mpich"
+os = "macos"
+
+    [[Kira.download]]
+    sha256 = "4f2a3491b751f78f80af770d49a29ba99d97b8e3cbe1c3b78cd3622dc3fe75b4"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[Kira]]
+arch = "x86_64"
+git-tree-sha1 = "fe1a8ef2299f691c757a0ae7f90dd5dcd57cbed0"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[Kira.download]]
+    sha256 = "7c315a2c028d2d6c2b6d9cbae9a548e5ae105d8151565e8536e5f88239ea349d"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[Kira]]
+arch = "x86_64"
+git-tree-sha1 = "a91f766b571db3409fcbcb5c2d10639b2ebcb32c"
+mpi = "openmpi"
+os = "macos"
+
+    [[Kira.download]]
+    sha256 = "d8022d8c58647fdd866166250f067333f871d038c28fc480623aa6eb27183d88"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[Kira]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "98305ca189272dc3816007db584bab687ac0cf8e"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Kira.download]]
+    sha256 = "87d681728de2af997d516b7b2bc0293570addda9719490edbaf8f36c16ca1cce"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[Kira]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "17abafcab90f6a72e75694ab9bd083b1572b45c5"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Kira.download]]
+    sha256 = "18b9c4f401c91b57368336dbb3d3e6202d10a5895c0dbacda41460f910447d6d"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[Kira]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ffad07deeca365848606f234b09bff317675c255"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Kira.download]]
+    sha256 = "893563882662b6dcded5e37f4dc7316f0e582bde0b1299dad30699b9e9076dbc"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[Kira]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "662697c9d19e72199e627549a8fb22a3b057f561"
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[Kira.download]]
+    sha256 = "deac242844b5a50958475592e8b5635605f0a774dbc28e46847a1062379b8ea7"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[Kira]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "40caaeedaaf39306fd1c5d990b5ee0ecf30468a0"
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Kira.download]]
+    sha256 = "ed5a641a467fd5c22097e83ed86bcff047cda96a224486a79f2510fd7fae4136"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[Kira]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4319438e7e8026ffd49cc0155d54b3706f04240d"
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[Kira.download]]
+    sha256 = "1ee94084d3f2c9f824456f4bd1fae3accf9b7569a64fe6cf65f7ccc38e0ff4d2"
+    url = "https://github.com/JuliaBinaryWrappers/Kira_jll.jl/releases/download/Kira-v2.3.0+0/Kira.v2.3.0.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
